@@ -1,0 +1,48 @@
+.logo{
+    width:30%;
+    display: inline-block;
+}
+#dst-logo{
+    float:left;
+}#pec-logo{
+    float:right;
+}
+.row-header {
+    margin: 0px auto;
+    padding: 0px 0px; 
+}
+  
+.row-content {
+    margin: 0px auto;
+    padding: 20px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px; 
+}
+.container .jumbotron {
+    border-radius: 0 !important;
+}
+.jumbotron {
+    margin: 0px auto;
+    background: white;
+    padding:5px;
+}
+  
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0; 
+    background-color: #2d263b;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    background-color: rgb(175, 174, 174);
+}
+.Title,.display-number{
+    color: #141311;
+    text-align: center;
+}
+.card{
+    height: fit-content;
+}

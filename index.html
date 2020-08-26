@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Indian Academicians</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="jumbotron">
+            <div class="row row-header">
+                <div class="col-sm-6">
+                    <img id="dst-logo" class="logo" src="images/dstlogo.png" alt="DST">
+                </div>
+                <div class="col-sm-6">
+                    <img id="pec-logo" class="logo" src="images/PEC_LOGO.png" alt="PEC">
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-light bg-light navbar-expand-sm">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href='#'>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href='#'>Academicians</a></li>
+                    <li class="nav-item"><a class="nav-link" href='#'>Universities</a></li>
+                    <li class="nav-item"><a class="nav-link" href='#'>Forum</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">An Option </a>
+                            <a class="dropdown-item" href="#">Another Option</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Somet another Option</a>
+                        </div>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a id="LoginButton">Login</a>
+                </span>
+                <span class="navbar-text">
+                    <a id="SignUpButton">Sign Up</a>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <section>
+        <div class="container ">
+            <div class="row row-content main">
+                <div class="col-12 col-sm-4">
+                    <div class="card">
+                        <div class="card-header">
+                            Refine Results
+                        </div>
+                        <div class="card-body align-items-center">
+                            <form>
+                                <div class="form-group">
+                                    <label for="IndiaCollege">Indian University Name OR College Name</label>
+                                    <input type="text" class="form-control" id="IndiaCollege" name="IndiaCollege">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Type">Type</label>
+                                    <select class="form-control" id="Type" name="Type">
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option>Option 3</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Department">Department</label>
+                                    <select class="form-control" id="Department" name="Department">
+                                        <option>Option 1</option>
+                                        <option>Option 2</option>
+                                        <option>Option 3</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="ForeignCollege">Foreign University</label>
+                                    <input type="text" class="form-control" id="ForeignCollege" name="ForeignCollege">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Refine</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm mx-auto center">
+                    <h1 class="Title">All Academicians</h1>
+                    <h3 class="display-number">Displaying 1-4 out of 400 Academicians</h3>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="images/Newton.jpg" class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h4 class="card-title">Isaac Newton</h4>
+                              <ul style="list-style-type:none">
+                                  <li>Faculty</li>
+                                  <li>University Name</li>
+                                  <li>Email</li>
+                                  <li>Specialised In</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="images/Einstein.jpg" class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h4 class="card-title">Albert Einstein</h4>
+                              <ul style="list-style-type:none">
+                                  <li>Faculty</li>
+                                  <li>University Name</li>
+                                  <li>Email</li>
+                                  <li>Specialised In</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="images/Newton.jpg" class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h4 class="card-title">Isaac Newton</h4>
+                              <ul style="list-style-type:none">
+                                  <li>Faculty</li>
+                                  <li>University Name</li>
+                                  <li>Email</li>
+                                  <li>Specialised In</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img src="images/Einstein.jpg" class="card-img" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h4 class="card-title">Albert Einstein</h4>
+                              <ul style="list-style-type:none">
+                                  <li>Faculty</li>
+                                  <li>University Name</li>
+                                  <li>Email</li>
+                                  <li>Specialised In</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>    
+        </div>
+    </section>
+
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
